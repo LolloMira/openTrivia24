@@ -1,0 +1,19 @@
+.question-text{
+    color: rebeccapurple;
+}
+
+#trivia{
+    max-width: 1200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: solid 2px black;
+
+}
+
+button{
+    display: list-item;
+    margin: 20px; 
+  list-style-type: decimal;
+}
