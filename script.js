@@ -26,6 +26,7 @@ function displayTrivia(triviaArray){
     let divContainer = document.createElement('div');
     divContainer.setAttribute('id','container');
     let pointCounter = document.createElement('p')
+    pointCounter.setAttribute('id', 'counter-p')
     pointCounter.innerText = '0'
     for (const trivia of triviaArray) {
         let liElement = createTriviaListElement(trivia, pointCounter)

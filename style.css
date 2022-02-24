@@ -17,3 +17,12 @@ button{
     margin: 20px; 
   list-style-type: decimal;
 }
+
+#counter-p{
+    width: 30px;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
